@@ -27,6 +27,6 @@ Supervisors, Department Heads, and Benefit Coordinators can each view, submit, a
 * A fully RESTful API
 
 To-do list:
-A way to deny requests
-Add new events, grading formats, etc...
-More front end testing
+* A way to deny requests
+* Add new events, grading formats, etc...
+* More front end testing
