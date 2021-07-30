@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>TRMS Home</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/CSS" href="index.css">
+</head>
+
+<body>
+
+    <h1>Login</h1>
+    <label for="usern">Username:</label><br>
+    <input id="usern" type="text" name="usern" value=""><br>
+    <label for="pw">Password:</label><br>
+    <input id="pw" type="password" name="pw" value=""><br>
+
+    <button id="login" onclick="login()">Login</button><br>
+    <a class="hide" href="reimbursement.html">View Reimbursement Forms</a>
+
+    <h2 class="hide">Tuition Reimbursement Form</h2><br>
+    <p class="hide" id="welcome">Welcome </p>
+
+    <label class="hide" for="date1">Date Start:</label><br>
+    <input class="hide" id="date1" type="date" name="date1"><br>
+    <label class="hide" for="date2">Date End:</label><br>
+    <input class="hide" id="date2" type="date" name="date2"><br>
+    <label class="hide" for="location">Location:</label><br>
+    <input class="hide" id="location" type="text" name="location"><br>
+    <label class="hide" for="description">Description:</label><br>
+    <input class="hide" id="description" type="text" name="description"><br>
+    <label class="hide" for="cost">Cost:</label><br>
+    <input class="hide" id="cost" type="number" name="cost"><br>
+
+    <label class="hide" for="grading_format">Grading Format:</label><br>
+<select class="hide" id="grading_format" name="grading_format"> 
+    <option class="hide" value="Letter Grade">Letter Grade</option>
+</select><br>
+    <label class="hide" for="event_type">Type of Event:</label><br>
+<select class="hide" id="event_type" name="event_type">
+    <option class="hide" value="class">Class</option>
+</select><br>
+
+    <label class="hide" for="reason">Reason:</label><br>
+    <input class="hide" id="reason" type="text" name="reason"><br>
+    <label class="hide" for="attachment">Approvals:</label><br>
+    <input class="hide" id="attachment" type="file" name="attachment"><br>
+    <label class="hide" for="attachment2">Attachment:</label><br>
+    <input class="hide" id="attachment2" type="file" name="attachment2"><br>
+
+    <button id="submitForm" class="hide" onclick="submitForm()">Submit Tuition Form</button><br>
+    <p class="hide" id="success"></p>
+
+</body>
+
+<script src="index.js"></script>
